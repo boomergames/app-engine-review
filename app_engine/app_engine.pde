@@ -6,6 +6,8 @@ import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
 
 //global variables
+String path = new file("").getAbsolutePath();//exported
+String dierectory = "";//not exported
 //
 void setup() []// end setup
 //
