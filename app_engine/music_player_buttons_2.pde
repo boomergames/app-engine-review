@@ -26,14 +26,15 @@ void drawStopButton() {
 //
 void drawPlayButton() {
   fill(blue);
-  triangle(playX1, PlayY1, playX2, PlayY2, playX3, PlayY3,);
+  triangle(playX1, PlayY1, playX2, PlayY2, playX3, PlayY3, );
   fill(resetcolorDayMode);
 }//end drawPlayButton
 //
-void drawSkipSong(){
-fill();
-
-
+void drawSkipSong() {
+  fill();
+   rect( pauseX1, pauseY1, pauseWidth, pauseHeight );
+    triangle(playX1, PlayY1, playX2, PlayY2, playX3, PlayY3, );
+    fill(resetcolorDayMode);
 }
 
 
